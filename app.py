@@ -9,8 +9,8 @@ app=Flask(__name__)
 app.secret_key="ashutoshrocks"
 app.config["MAIL_SERVER"]="smtp.gmail.com"
 app.config["MAIL_PORT"]=587
-app.config["MAIL_USERNAME"]="testerbrucewayne@gmail.com"
-app.config["MAIL_PASSWORD"]="tradzfiylzdnmqgc"
+app.config["MAIL_USERNAME"]="your_email"
+app.config["MAIL_PASSWORD"]="your_app_password"
 app.config["MAIL_USE_TLS"]=True
 app.config["MAIL_USE_SSL"]=False
 
@@ -111,7 +111,7 @@ def signup():
 			text+="0123456789"
 		for i in range(length):
 			pw+=text[randrange(len(text))]
-		msg=Message("Greetings from LCD App",sender="testerbrucewayne@gmail.com",recipients=[un])
+		msg=Message("Greetings from LCD App",sender="your-email",recipients=[un])
 		msg.body=" Greetings user! "+"\n"+" Your password for LCD is: "+str(pw)+"\n"+"Regards, "+"\n"+"Team LCD"
 		mail.send(msg)
 		con=None
