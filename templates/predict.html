@@ -87,26 +87,20 @@
 		<p>Enter patient's age</p>
 		<input type="number" placeholder="enter age*" min="21" name="age" required/>
 		<br/><br/>
-		<fieldset>
-		<legend>Does the patient consume alcohol?</legend>
+		<label for="">Does the patient consume alcohol?</label>
 		<br>
 		<input type="radio" name="ac" value="1" checked/>No
 		<input type="radio" name="ac" value="2"/>Yes
-		</fieldset>
 		</p>
 		<br><br>
-		<fieldset>
-		<legend>Is the patient in a peer pressure?</legend>
+		<label for="">Is the patient in a peer pressure?</label>
 		<input type="radio" name="pp" value="1" checked/>No
 		<input type="radio" name="pp" value="2"/>Yes
-		</fieldset>
 		<br/><br/>
-		<fieldset>
-			<legend>Any chronic disease?</legend>
+		<label for="">Any chronic disease?</label>
 		<input type="radio" name="cd" value="1" checked/>No
 		<input type="radio" name="cd" value="2"/>Yes
-		</fieldset>
-		<br>
+		<br><br>
             <div class="form-group">
             <input type="submit" class="btn" value="Predict"/>
         </form>
