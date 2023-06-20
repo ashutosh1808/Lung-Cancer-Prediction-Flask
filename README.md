@@ -7,7 +7,7 @@ for detection of lung cancer in a patient. The dataset has been trained using Ra
 
 ## Acknowledgements
 
- - [Random Forest Regressor Docs](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+-  [Random Forest Regressor Docs](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
  - [Dataset Link](https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer)
 
 
